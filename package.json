@@ -1,0 +1,25 @@
+{
+  "name": "ngwheel",
+  "version": "0.0.2",
+  "description": "Adds support for ng-scroll event attribute to bind on mouse wheel events",
+  "main": "ngScroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darlanalves/ngWheel.git"
+  },
+  "keywords": [
+    "angular",
+    "scroll",
+    "directive"
+  ],
+  "author": "Darlan Alves <https://github.com/darlanalves>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darlanalves/ngWheel/issues"
+  },
+  "homepage": "https://github.com/darlanalves/ngWheel#readme",
+  "private": true
+}
