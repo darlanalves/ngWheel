@@ -1,19 +1,24 @@
 ngWheel
 ============
 
-AngularJS `ng-scroll` directive
-
-Adds ng-scroll directive to bind on mouse wheel events
+AngularJS `ng-scroll` directive to bind *'scroll'* event.
 
 ### Usage:
 
-
+```js
+angular.module('app', [
+    // ...
+    'ngWheel'
+]);
 ```
-    <div class="scrollable-box ..." ng-scroll="calledOnMouseWhell()">
-        ...
+
+```html
+    <div class="scrollable-element" ng-scroll="ctrl.onScroll($event)">
+        scroll me!
     </div>
 ```
 
 ### Installing using npm
 
-Add `"ngwheel": "git+https://github.com/darlanalves/ngWheel.git"` as a dependency in your package.json.
+`npm i ngwheel`
+
